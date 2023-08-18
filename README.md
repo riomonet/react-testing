@@ -1,5 +1,8 @@
-Practice testing React Components
+### Practice testing React Components
+Using jest and react-testing-library
 
-### smoke tests
+#### smoke tests
 
-### snapshot tests
+####  snapshot tests
+
+####  user interaction tests
