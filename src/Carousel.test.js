@@ -3,11 +3,10 @@ import Carousel from "./Carousel";
 import TEST_IMAGES from "./_testCommon.js";
 
 
-//smoke test
+//smoke tests 
 test("it renders without crashing", () => {
     render(<Carousel photos={TEST_IMAGES} />)
 })
-
 
 
 // it("works when you click on the right arrow", function() {
