@@ -16,3 +16,8 @@ test('it mathces snapshot', () => {
     
 })
 
+it('matches snapshot with props', () => {
+    const {asFragment} = render(<Card caption="A nice pic" currNum={1} totalNum={3} />);
+    expect(asFragment()).toMatchSnapshot()
+
+})
