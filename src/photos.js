@@ -8,7 +8,8 @@ const photos = [
     caption: "Photo by Richard Pasquarella on Unsplash"
   },
   {
-    src: image2,
+
+      src: image2,
     caption: "Photo by Pratik Patel on Unsplash"
   },
   {
