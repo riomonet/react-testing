@@ -6,7 +6,8 @@ use render methods from @testing-library/reactx
 to check wether a component can be rendered or crashes.
 
 ####  snapshot tests
-take snapshots and compare subsequent test executions with the snapshots
+take snapshots and compare subsequent renders with the snapshots
 
 ####  user interaction tests
-
+Testing actual events and desired change in output.
+Render -> find elements -> fire an event -> check changes
